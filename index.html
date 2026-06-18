@@ -7,195 +7,400 @@
     <title>Portafolio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+   
 </head>
 
 <body>
 <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
     <div class="container">
         <a class="navbar-brand" href="#">
-            Roberto Jiménez
+            Portafolio
         </a>
 
         <div class="navbar-nav ms-auto">
             <a class="nav-link" href="#sobre-mi">Sobre mí</a>
-            <a class="nav-link" href="#habilidades">Habilidades</a>
+            <a class="nav-link" href="#servicios">Servicios</a>
+            <a class="nav-link" href="#tecnologias">Tecnologías</a>
             <a class="nav-link" href="#proyectos">Proyectos</a>
             <a class="nav-link" href="#contacto">Contacto</a>
         </div>
     </div>
 </nav>
+
 <div class="container mt-5">
 
-    <h1 class="display-3 text-center">
-        Desarrollador freelancer
+   <section class="hero text-center">
+
+    <h1 class="hero-title fade-in">
+        Hola, soy <span>Roberto Jiménez</span>
     </h1>
 
-    <p class="lead text-center">
-        Enfocado en el desarrollo web y aplicaciones multiplataformas.
+    <p class="hero-subtitle fade-in delay-1">
+        Desarrollador de Software especializado en sistemas web, aplicaciones móviles y soluciones para automatizar procesos de negocios.
     </p>
 
-<section id="sobre-mi" class="container mt-5">
+    <div class="hero-badges fade-in delay-2">
+        <span>💻 Web Apps</span>
+        <span>📱 Android</span>
+        <span>⚙️ Sistemas Administrables</span>
+    </div>
 
-    <h2 class="text-center mb-4">
-        Sobre mí
-    </h2>
+    <div class="hero-buttons fade-in delay-3 mt-4">
+        <a href="#proyectos" class="btn btn-primary btn-lg">
+            Ver Proyectos
+        </a>
 
-    <p class="text-center">
-        Soy desarrollador web en formación con experiencia en HTML, CSS,
-        Bootstrap y Git. Actualmente me especializo en la creación de
-        sitios web modernos, responsivos y enfocados en negocios.
-    </p>
+        <a href="#contacto" class="btn btn-outline-dark btn-lg ms-2">
+            Contactar
+        </a>
+         <a href="cv-roberto-jimenez.pdf"
+   class="btn btn-success btn-lg ms-2"
+   download>
+    <i class="bi bi-file-earmark-person"></i> Descargar CV
+</a>
+    </div>
 
 </section>
+<section id="sobre-mi" class="container mt-5">
 
-<section id="habilidades" class="container mt-5">
+    <h2 class="text-center mb-4">Sobre mí</h2>
 
-    <h2 class="text-center mb-4">
-        Habilidades
-    </h2>
+    <div class="about-grid">
 
-    <div class="row">
-
-        <div class="col-md-3">
-            <div class="card p-3">
-                HTML
-            </div>
+        <div class="about-text">
+            <p>
+                Desarrollador de software con experiencia en aplicaciones móviles Android, sistemas web administrables e integración de servicios cloud.
+                He desarrollado soluciones utilizando Java, PHP, Firebase y tecnologías web modernas, enfocadas en resolver necesidades reales de negocios e instituciones.
+            </p>
         </div>
 
-        <div class="col-md-3">
-            <div class="card p-3">
-                CSS
-            </div>
-        </div>
+        <div class="about-stats">
 
-        <div class="col-md-3">
-            <div class="card p-3">
-                Bootstrap
+            <div class="stat">
+                <h3>+5</h3>
+                <p>Proyectos</p>
             </div>
-        </div>
 
-        <div class="col-md-3">
-            <div class="card p-3">
-                Git & GitHub
+            <div class="stat">
+                <h3>+3</h3>
+                <p>Tecnologías</p>
             </div>
+
+            <div class="stat">
+                <h3>Freelance</h3>
+                <p>Disponible</p>
+            </div>
+
         </div>
 
     </div>
 
+</section>
+
+<section id="servicios" class="container mt-5">
+
+    <h2 class="text-center mb-4">
+        Servicios
+    </h2>
+<div class="row g-4 justify-content-center">
+
+    <div class="col-12 col-md-6 col-lg-4">
+        <div class="card h-100 p-4 text-center service-card">
+            <div class="service-icon"><i class="bi bi-globe2"></i></div>
+            <h4>Desarrollo Web</h4>
+            <p>Desarrollo sitios web modernos, responsivos y optimizados para ayudarte a destacar y generar confianza en tus clientes.</p>
+        </div>
+    </div>
+
+    <div class="col-12 col-md-6 col-lg-4">
+        <div class="card h-100 p-4 text-center service-card">
+           <div class="service-icon"><i class="bi bi-gear-fill"></i></div>
+            <h4>Sistemas Administrables</h4>
+            <p>Digitaliza y controla tu negocio con sistemas personalizados para inventarios, paneles administrables, clientes, ventas y procesos internos.</p>
+        </div>
+    </div>
+
+    <div class="col-12 col-md-6 col-lg-4">
+        <div class="card h-100 p-4 text-center service-card">
+            <div class="service-icon"><i class="bi bi-phone"></i></div>
+            <h4>Desarrollo Móvil</h4>
+            <p>Transforma tu idea en una app móvil escalable con notificaciones, mapas, autenticación y funciones avanzadas.</p>
+        </div>
+    </div>
+
+</div>
+
+</section>
+<section id="tecnologias" class="container mt-5">
+    <h2 class="text-center mb-4">
+    Tecnologías y Herramientas
+</h2>
+
+<div class="row g-4">
+
+    <div class="col-md-6">
+        <div class="card p-3 h-100">
+            <h5>Desarrollo Web</h5>
+
+  <div class="tech-stack">
+
+    <span class="badge tech web">
+        <i class="devicon-html5-plain"></i> HTML5
+    </span>
+
+    <span class="badge tech web light">
+        <i class="devicon-css3-plain"></i> CSS3
+    </span>
+
+    <span class="badge tech web lighter">
+        <i class="devicon-javascript-plain"></i> JavaScript
+    </span>
+
+    <span class="badge tech web dark">
+        <i class="devicon-bootstrap-plain"></i> Bootstrap
+    </span>
+
+    <span class="badge tech web light">
+        <i class="devicon-php-plain"></i> PHP
+    </span>
+
+    <span class="badge tech web lighter">
+        <i class="devicon-mysql-plain"></i> MySQL
+    </span>
+
+    <span class="badge tech web dark">
+        <i class="devicon-javascript-plain"></i> APIs
+    </span>
+
+</div>
+    
+        </div>
+    </div>
+
+    <div class="col-md-6">
+        <div class="card p-3 h-100">
+            <h5>Bases de Datos</h5>
+<div class="tech-stack">
+
+    <span class="badge tech db">
+        <i class="devicon-mysql-plain"></i> MySQL
+    </span>
+
+    <span class="badge tech db light">
+        <i class="devicon-firebase-plain"></i> Firebase
+    </span>
+
+    <span class="badge tech db lighter">
+        <i class="devicon-googlecloud-plain"></i> Firestore
+    </span>
+    <span class="badge tech db lighter">
+        <i class="devicon-postgresql-plain"></i> PostgreSQL
+    </span>
+
+</div>
+        </div>
+    </div>
+
+    <div class="col-md-6">
+        <div class="card p-3 h-100">
+            <h5>Desarrollo Móvil</h5>
+<div class="tech-stack">
+
+    <span class="badge tech mobile">
+        <i class="devicon-androidstudio-plain"></i> AndroidStudio
+    </span>
+
+    <span class="badge tech mobile light">
+        <i class="devicon-java-plain"></i> Java
+    </span>
+
+    <span class="badge tech mobile lighter">
+        <i class="devicon-firebase-plain"></i> Firebase
+    </span>
+
+    <span class="badge tech mobile dark">
+        <i class="devicon-google-plain"></i> AdMob
+    </span>
+
+</div>
+        
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="card p-3 h-100">
+            <h5>Control de versiones</h5>
+        <div class="tech-stack">
+
+    <span class="badge tech vcs dark">
+        <i class="devicon-git-plain"></i> Git
+    </span>
+
+    <span class="badge tech vcs">
+        <i class="devicon-github-original"></i> GitHub
+    </span>
+
+    <span class="badge tech vcs light">
+        <i class="devicon-gitlab-plain"></i> GitLab
+    </span>
+
+</div>
+        
+        </div>
+    </div>
+
+</div>
 </section>
 <section id="proyectos" class="container mt-5">
 
     <h2 class="text-center mb-4">
-        Mis Proyectos
+        Proyectos Destacados
     </h2>
 
-    <div class="row">
+    <div class="row g-4">
 
-        <div class="col-md-4">
+        <div class="col-md-6">
+
             <div class="card h-100">
 
-    <img src="img/proyecto 1.jfif"
-         class="card-img-top"
-         alt="Proyecto">
+                <img src="img/UsAndroid.jpeg"
+                     class="card-img-top"
+                     alt="Aplicación Us">
+
                 <div class="card-body">
 
-                    <h5 class="card-title">
-                        Portafolio Personal
-                    </h5>
+                    <h4 class="card-title">
+                        Us
+                    </h4>
 
                     <p class="card-text">
-                        Sitio web desarrollado con HTML, CSS,
-                        Bootstrap y Git.
+                        Aplicación Android desarrollada para conectar usuarios con proveedores de servicios cercanos mediante geolocalización.
                     </p>
-                    <a href="#"
-   class="btn btn-primary">
-    Ver Proyecto
-</a>
+
+                    <ul class="list-unstyled">
+                        <li>Geolocalización por distancia</li>
+                        <li>Perfiles de usuario</li>
+                        <li>Calificaciones y comentarios</li>
+                        <li>Firebase y Firestore</li>
+                        <li>Google AdMob</li>
+                    </ul>
 
                 </div>
 
             </div>
+
         </div>
 
-        <div class="col-md-4">
+        <div class="col-md-6">
+
             <div class="card h-100">
 
-                 <img src="img/proyecto 2.jfif"
-         class="card-img-top"
-         alt="Proyecto">
+                <img src="img/televenus.jpeg"
+                     class="card-img-top"
+                     alt="Sistema Escolar">
+
                 <div class="card-body">
 
-                    <h5 class="card-title">
-                        Landing Page Restaurante
-                    </h5>
+                    <h4 class="card-title">
+                        Sistema Administrativo Escolar
+                    </h4>
 
                     <p class="card-text">
-                        Página enfocada en captación de clientes
-                        mediante WhatsApp.
+                        Sitio web institucional acompañado de un panel administrativo que permite gestionar contenido sin conocimientos técnicos.
                     </p>
-                                   <a href="#"
-   class="btn btn-primary">
-    Ver Proyecto
-</a>
 
+                    <ul class="list-unstyled">
+                        <li>Panel administrativo</li>
+                        <li>CRUD completo</li>
+                        <li>Gestión de noticias y talleres</li>
+                        <li>PHP y MySQL</li>
+                        <li>Bootstrap y JavaScript</li>
+                    </ul>
 
                 </div>
 
             </div>
-        </div>
 
-        <div class="col-md-4">
-            <div class="card h-100">
-
-                 <img src="img/proyecto 3.jfif"
-         class="card-img-top"
-         alt="Proyecto">
-                <div class="card-body">
-
-                    <h5 class="card-title">
-                        Landing Page Gimnasio
-                    </h5>
-
-                    <p class="card-text">
-                        Diseño responsivo para promoción de servicios
-                        deportivos.
-                    </p>
-
-                                   <a href="#"
-   class="btn btn-primary">
-    Ver Proyecto
-</a>
-
-                </div>
-
-            </div>
         </div>
 
     </div>
 
-<section id="contacto" class="container mt-5 mb-5">
+</section>
 
-    <h2 class="text-center mb-4">
-        Contacto
-    </h2>
+<section id="contacto" class="container my-5">
 
-    <div class="text-center">
+<h2 class="text-center mb-2">Hablemos de tu proyecto</h2>
 
-        <p>
-            ¿Tienes un proyecto en mente?
-        </p>
+<p class="text-center text-muted mb-4">
+Cuéntame qué necesitas y te ayudo a convertirlo en una solución real
+</p>
 
-        <a href="https://wa.me/529222203870"
+<div class="row g-4 align-items-center">
+
+  <!-- INFO -->
+  <div class="col-md-6">
+
+    <div class="contact-box">
+      <h4>📩 Respuesta rápida</h4>
+      <p>Generalmente respondo en menos de 24 horas.</p>
+    </div>
+
+    <div class="contact-box">
+      <h4>¿Qué podemos hacer?</h4>
+     <ul class="list-unstyled">
+  <li>Páginas web para negocios</li>
+  <li>Sistemas administrativos</li>
+  <li>Aplicaciones móviles</li>
+</ul>
+    </div>
+
+    <div class="contact-box">
+      <h4>También por WhatsApp</h4>
+      
+      <a href="https://wa.me/529222203870"
            class="btn btn-success btn-lg"
            target="_blank">
             Enviar WhatsApp
         </a>
-
     </div>
+
+  </div>
+
+  <!-- FORM -->
+  <div class="col-md-6">
+
+ <form action="https://formspree.io/f/xbdevqzq" method="POST" class="contact-form">
+
+  <input type="text" name="nombre" placeholder="Nombre" class="form-control mb-3">
+
+  <input type="email" name="correo" placeholder="Correo" class="form-control mb-3">
+
+  <textarea name="mensaje" placeholder="Tu mensaje" class="form-control mb-3" rows="5"></textarea>
+
+  <button type="submit" class="btn btn-dark w-100">
+    Enviar mensaje
+  </button>
+
+</form>
+  </div>
+
+</div>
 
 </section>
 </div>
 
 </body>
+<footer class="bg-dark text-white text-center p-3 mt-5">
+
+    <p class="mb-0">
+        © 2026 Roberto Carlos Jiménez - Desarrollador
+    </p>
+<a href="https://github.com/Roberto-carlos-jimenez"
+   class="btn btn-dark btn-lg ms-2"
+   target="_blank">
+   GitHub
+</a>
+</footer>
 
 </html>
